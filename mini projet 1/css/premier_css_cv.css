@@ -1,0 +1,15 @@
+/*style des balises paragraphes*/
+p{
+  text-align: justify;
+  color: green;
+}
+/*style des balises titre niveau 1*/
+h1{
+  text-align: center;
+}
+/*style des balises titre niveau 2*/
+h2{
+  text-align: left;
+  font-family: monospace; 
+  color: green;
+}

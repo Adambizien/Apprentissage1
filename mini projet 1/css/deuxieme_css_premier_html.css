@@ -1,0 +1,13 @@
+/* alignement des texts*/
+p.classe1{
+	text-align: justify;
+}
+p.classe2{
+	text-align: center;
+}
+p.classe3{
+	text-align: left;
+}
+p.classe4{
+	text-align: right;
+}
