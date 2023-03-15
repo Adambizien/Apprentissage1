@@ -1,0 +1,27 @@
+
+/*block bleu avec un positionnement que nous pouvons changer sur le css */
+.c1{
+    background-color: blue;
+	position: absolute;
+    width:5%;
+    height:10%;
+    top :100px;
+    z-index:1;
+}
+.c2{
+    background-color: green;
+    position: absolute;
+    width: 10%;
+    height: 30%;
+    z-index:2;
+    left: 30px
+}
+.c3{
+    background-color: red;
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    z-index:3;
+    left: 40px;
+    top:40px;
+}

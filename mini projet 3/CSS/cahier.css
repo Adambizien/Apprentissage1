@@ -1,0 +1,15 @@
+/*utilistaion de l'image spirale */
+#cahier{
+	background-image: url("../BaseImages/fond_spirale.gif");
+  width: 54%;
+  padding-left: 5%;
+}
+/*modification de l'indentation*/
+p{
+  text-indent:3cm; 
+}
+/*mettre sur chaque point de la liste une puce*/
+ul{
+   list-style-image:url("../BaseImages/puce.png") ;
+}
+
