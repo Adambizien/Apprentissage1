@@ -1,0 +1,26 @@
+h1{
+	text-align: center;
+}
+  /*  margin-left:%
+   margin-rigth:*/
+
+.intro{text-align: justify;}
+.poeme{ font-weight: bold;
+    border-style: double;
+    text-align: center; 
+    padding-left:29%;
+    padding-right:29%;
+}
+.signature{
+	text-align: center;
+	font-family: monospace;
+}
+.foot{
+	color: blue;
+	font-size:75% ;
+	text-align: left;
+}
+a{font-size: 75%;
+	color: red;
+	font-family: Arial;
+}
