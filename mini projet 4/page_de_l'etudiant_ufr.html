@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Bizien Adam</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="mise_en_forme.css" />
+  </head>
+  <body>
+    <h1>Bienvenue sur la page de Adam Bizien, étudiant à
+    <a href="https://www.univ-rouen.fr/">l’université de Rouen</a></h1>
+    <!--menu de navigation-->
+    <nav>
+      <h2>sommaire</h2>
+        <ol>
+          <li><a href="#id1">Accès au campus du Madrillet</a></li>
+          <li><a href="#id2">Les autres sites de l’université</a></li>
+          <li><a href="#id3">Mon parcours</a></li>
+          <li><a href="#id4">Un peu de musique</a></li>
+        </ol>
+    </nav>
+    <!--les différentes sections du cite-->
+    <section>
+      <h2 id="id1">Accès au campus du Madrillet</h2>
+      <p>Pour venir sur mon campus, c’est facile :</p>
+      <figure>
+        <img src="Madrillet.png" alt="Plan du campus du Madrillet">
+        <figcaption>Plan schématique du campus</figcaption>
+      </figure>
+    </section>
+    <section>
+      <h2 id="id2">Les autres sites de l’université</h2>
+      <p>L’université de Rouen comprend d’autres sites :</p>
+      <!--liste ordoner-->
+      <ol reversed>
+        <li>Mont-Saint-Aignan ;</li>
+        <li>Pasteur ;</li>
+        <li>Martainville ;</li>
+        <li>Évreux ;</li>
+        <li>Elbeuf.</li>
+      </ol>
+    </section>
+    <section>
+      <h2 id="id3">Mon parcours</h2>
+      <!--liste non ordoner-->
+        <ul>
+          <li>.....</li>
+          <li>......</li>
+          <li>.........</li>
+          <li>....</li>
+          <li>....</li>
+        </ul>
+    </section>
+    <section>
+      <h2 id="id4">Un peu de musique</h2>
+      <!--fichier audio avec deux versions .ogg et .mp3-->
+      <audio controls>
+        <source src="sonate11.ogg" >
+        <source src="sonate11.mp3" >
+        Votre navigateur ne prend pas en charge la balise audio.
+      </audio>
+    </section>
+    <section>
+      <h2>Séries entières</h2>
+      <!--utilisation de MathML-->
+      <math  xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+        <mi>exp</mi>
+        <mi>x</mi>
+        <mo>=</mo>
+        </mrow>
+        <mrow>
+        <munderover>
+        <mo>∑</mo>
+        <mrow>
+        <mi>n</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+        </mrow>
+        <mi>∞</mi>
+        </munderover>
+        <mfrac>
+        <mrow>
+          <msup>
+          <mn>x</mn>
+          <mn>n</mn>
+          </msup>
+        </mrow>
+        <mrow>
+          <mn>4</mn>
+          <mo>!</mo>
+        </mrow>
+        </mfrac>
+        </mrow>
+      </math>
+    </section>
+
+  </body>
+</html>

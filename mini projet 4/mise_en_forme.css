@@ -1,0 +1,53 @@
+
+body{
+    color:green;
+}
+@font-face{
+    font-family:Voor;
+    src:url("VoorReg.otf");
+}
+h1,h2 {
+    font-family: Voor,serif;
+}
+/*des carrer à la place des points*/
+ul {
+    list-style-type:square;
+}
+/*chiffre Romain*/
+ol{
+    list-style-type:upper-roman;
+}
+figure{
+    text-align:center;
+}
+/*le style des sections*/
+section{
+    border-left-style: solid;
+    border-left-color:navy;
+    border-left-width:3px;
+    background:hsl(120,100%,98%);
+}
+
+nav{
+    background:hsl(60,100%,90%);
+}
+nav,section{
+    margin:1em;
+    padding:2em;
+}
+section{
+    border-top-left-radius:50px;
+}
+/*surpasset des elements de la somme*/
+math:hover{
+    color:red;
+}
+mi:first-child:hover{
+    color:blue;
+}
+mn:first-child:hover{
+    color:black;
+}
+
+
+
