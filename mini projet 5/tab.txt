@@ -1,9 +1,0 @@
-Tableau 1 : Quelques entités HTML
-
-Catégorie 	Entité Html 	Code 		Commentaire
-Accents 	É 				&Eacute; 	
-			È 				&Egrave; 	
-			À 				&Agrave; 	
-			ð 				&eth; 		Lettre Islandaise
-Monnaies 	€ 				&euro; 		Euro
-			£ 				&pound; 	Livre Sterling
