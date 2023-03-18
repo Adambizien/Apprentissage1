@@ -1,0 +1,180 @@
+body{
+	background-color:white ;
+	font-family: sans-serif;
+}
+/*infobox*/
+th:only-child{
+	background-color: #B4464B;
+    color:white;
+	text-align: center;
+}
+ tr:last-child{
+	text-align: center;
+	font-size: 80%;
+
+}
+tr:first-child{
+    position:relative;
+	font-size: 150%;
+	height: 45px;
+}
+tr:first-child > th::after{
+	position:absolute;
+	content:url("livre.png");
+	left:210px;
+	bottom:-5px
+}
+/*les liens*/
+a{
+    text-decoration : none;
+}
+a:link{
+	color:#0645AD;
+}
+a:visited{
+	color:#0B0080;
+}
+.externe::after{
+    content: url("externe.png");
+}
+.externe:link{
+	color:#3366BB;
+}
+.externe:visited{
+	color:#663366;
+}
+/*infobox*/
+#coordonnees{
+	float: right;
+	font-size: 90%;
+}
+#bloc_principal,#categories{
+	font-size: 80%;
+}
+#contenu{
+	position:absolute;
+	left:11em;
+}
+ul{
+    list-style-image:url("puce.png");
+}
+.infobox{
+    padding:5px;
+	width : 300px;
+	text-align: left;
+    background-color:#F9F9F9 ;
+    float:right;
+    border-style: solid;
+    border-color: #AAAAAA;
+    font-size: 90% ;
+}
+h1{
+	font-size: 160%;
+}
+
+h3{
+	font-size: 132%;
+}
+#navigation{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:#E8E8E8;
+	height:1342px;
+	padding-left:10px;
+}
+/*menu navigation*/
+.menu{
+	font-size: 75%;
+}
+#navigation h3{
+    padding-left:7px;
+	color:#444444 ;
+	width: 10em;
+    border-bottom-style:none;
+}
+#navigation ul {
+	padding-left: 5px;
+}
+#navigation li{
+	list-style-type:none;
+	list-style-image:none;
+}
+
+#sommaire{
+	width: 30em;
+    border-style: solid;
+    border-color: #AAAAAA;
+    background-color:#E8E8E8;
+}
+#sommaire > ul{
+	padding-left:10px;
+}
+#sommaire > h2 {
+	border-bottom-style:none;
+	text-align:center;
+	font-size:135%;
+}
+#sommaire li {
+	list-style-type:none;
+	list-style-image:none;
+}
+/*block photo iut */
+.bloc_photo{
+	width: 222px;
+	float: right ;
+	border-style: solid;
+	border-color:#CCCCCC ;
+    bottom:0 em;
+    clear:right;
+}
+/*block categories*/
+#categories{
+	padding-left:2px;
+	border-style: solid;
+	border-color:#AAAAAA;
+	background-color:#E8E8E8;
+
+}
+#categories > ul, #categories > ul >li {
+	display:inline-block;
+	padding-left:0px;
+}
+#categories li{
+	border-right:solid 2px silver ;
+	padding-right:10px;
+}
+#categories li:last-child{
+	border-right:none;
+}
+h1,h2{
+	border-bottom-style:solid;
+	border-color:#AAAAAA;
+}
+h3{
+	border-bottom-style:dotted;
+	border-color:#AAAAAA;
+}
+/*placer le point rouge sur l'image:*/
+#carte {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/*légende de l'image*/
+td:last-child > img:first-child {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #000000;
+}
+
+#pointrouge {
+  position: absolute;
+  top: 35px;
+  left: 90px;
+}
+
+
+
+
