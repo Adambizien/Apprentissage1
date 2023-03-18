@@ -1,0 +1,28 @@
+body{color:green;
+
+}
+@font-face{
+font-family:Voor;
+src:url("VoorReg.otf");
+}
+h1,h2 {font-family: Voor,serif;}
+ul {list-style-type:square;}
+ol{list-style-type:upper-roman;}
+figure{text-align:center;}
+section{border-left-style: solid;
+        border-left-color:navy;
+        border-left-width:3px;
+        background:hsl(120,100%,98%)}
+
+nav{background:hsl(60,100%,90%);}
+nav,section{
+margin:1em;
+padding:2em;
+    }
+section{border-top-left-radius:50px;}
+math:hover{color:red;}
+mi:first-child:hover{color:blue;}
+mn:first-child:hover{color:black}
+
+
+

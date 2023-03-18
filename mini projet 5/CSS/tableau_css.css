@@ -1,0 +1,36 @@
+table {
+    width: 75%;
+    table-layout: fixed;
+    border: 3px solid black;
+    margin: auto;
+    border-collapse: collapse; /* pour fusionner les bordures des cellules */
+    text-align: center;
+}
+td {
+    /* tr pour les lignes, td les cellules normales, th la tête */
+    border: 1px dotted red;
+    padding: 2px; /* marge interieur */
+}
+th {
+    padding: 5px; /*pas border-spacing*/
+    font-weight : bold;
+    font-variant : small-caps;
+}
+caption::first-letter {
+    font-size: 150%;
+}
+tbody:nth-of-type(2) > tr >  td:last-child {
+    text-align: left;
+}
+th:last-child, th:nth-child(2) {
+    background-color: silver;
+}
+td:last-child, td:nth-last-child(3)  {
+    background-color: silver;
+}
+/*lors du survol d’une case, les commentaires de la catégorie s’affichent en blanc sur fond noir
+avec une bordure blanche*/
+tbody:hover > tr >td:last-child {
+    background-color: black;
+    color: white;
+}
